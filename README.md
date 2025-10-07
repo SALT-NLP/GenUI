@@ -23,6 +23,10 @@ Stanford University
 
 We investigate Generative Interfaces for Language Models, a paradigm where LLMs respond to user queries by proactively generating user interfaces (UIs) to enable more adaptive, interactive interactions that better support complex user goals.
 
+### Updates
+
+[10/07/2025] We conducted a new user study where 76 participants used their own daily queries to compare generative interfaces with conversational ones. Data is released <a href="https://huggingface.co/datasets/SALT-NLP/GenUI" target="_blank" rel="noopener noreferrer">here</a>. Data viewer is available <a href="https://salt-nlp.github.io/generative_interfaces/dataviewer/data_viewer.html" target="_blank" rel="noopener noreferrer">here</a>.
+
 ## How do Generative Interfaces work?
 - **Requirement specification** [[system prompt](https://github.com/SALT-NLP/GenUI/blob/main/apps/agents/src/open-canvas/prompts.ts#L960)], [[Code](https://github.com/SALT-NLP/GenUI/blob/main/apps/agents/src/open-canvas/nodes/analyze-requirements.ts#L31)]: First, we parse the input into a requirement specification, capturing the main goal, desired features, UI components, interaction styles, and problem-solving strategies.
 
